@@ -75,7 +75,6 @@ nav {
     display: flex;
     align-items: row;
     justify-content: space-around;
-    padding: 1%;
     margin-bottom: 2%;
 }
 
@@ -90,7 +89,9 @@ nav a {
     margin-top: 3%;
 }
 
-
+.top-content img {
+    padding-bottom: 3%;
+}
 
 .top-content {
     display: flex;
@@ -131,6 +132,46 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
