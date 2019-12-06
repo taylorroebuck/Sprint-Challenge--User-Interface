@@ -256,3 +256,50 @@ footer nav a {
     border-radius: 40px;
 }
 
+/*Contact page CSS*/
+
+.contactHeader {
+    width: 90%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+  input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+
+  input[type=submit]:hover {
+    animation-name: easterrainbow;
+    animation-duration: 4s;  
+  }
+
+  nav a:hover{
+    animation-name: easterrainbow;
+    animation-duration: 4s;  
+  }
+  
+  @keyframes easterrainbow {
+    0%{
+      background-color: pink;
+    }
+    50%{
+      background-color: yellow;
+    }
+    100%{
+      background-color: purple;
+    }
+  
