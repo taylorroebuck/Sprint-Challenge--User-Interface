@@ -73,13 +73,13 @@ p {
 
 nav {
     display: flex;
-    align-items: row;
-    justify-content: space-around;
-    margin-bottom: 2%;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 4.5%;
 }
 
 nav img {
-    margin-top: 1%;
+    margin-top: 2%;
     height: 4.5vh;
 }
 
@@ -89,7 +89,7 @@ nav a {
     margin-top: 3%;
 }
 
-.top-content img {
+header img {
     padding-bottom: 3%;
 }
 
@@ -206,3 +206,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* CSS specific to About page*/
