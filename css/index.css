@@ -287,9 +287,15 @@ input[type=text], select, textarea {
     animation-duration: 4s;  
   }
 
-  nav a:hover{
+  nav a:hover {
     animation-name: easterrainbow;
     animation-duration: 4s;  
+  }
+
+  .learnButton:hover {
+    animation-name: easterrainbow;
+    animation-duration: 4s;
+    cursor: pointer;  
   }
   
   @keyframes easterrainbow {
