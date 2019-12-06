@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    align-items: row;
+    justify-content: space-around;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+nav img {
+    margin-top: 1%;
+    height: 4.5vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 3%;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
