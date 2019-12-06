@@ -33,23 +33,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+I would say that semantic HTML is what gives your code meaning-- it helps you look at it and make sense of what's going on/what exactly you're looking at. Semantic HTML is your friend!
+
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Inline elements only take up as much space as its content. Block elements will break the flow of content on a new line.
+
 
 3. What are the 4 areas of the box model?
+Margin, border, padding, and content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+That property would work on the cross axis.
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable to a team of developers because it allows a team of people to work on code simultaneously. Also, you can "time travel" and access older versions of your code if necessary.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
